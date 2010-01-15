@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="56dip"
+android:padding="6dip">
+
+	<ImageView android:id="@+id/rule_item_icon"
+	android:layout_width="32dip"
+	android:layout_height="32dip"
+	android:layout_gravity="center_vertical"/>
+	
+	<TextView android:id="@+id/rule_item_name"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@id/rule_item_icon"
+	android:layout_marginLeft="6dip"
+	style="?android:attr/textAppearanceLarge"
+	android:maxLines="2"
+	android:ellipsize="end"/>
+	
+	<TextView android:id="@+id/rule_item_keywords"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@id/rule_item_icon"
+	android:layout_below="@id/rule_item_name"
+	android:layout_marginLeft="6dip"
+	android:layout_marginTop="2dip"
+	android:singleLine="true"
+	android:ellipsize="marquee"
+	android:marqueeRepeatLimit="marquee_forever"/>
+
+</RelativeLayout>

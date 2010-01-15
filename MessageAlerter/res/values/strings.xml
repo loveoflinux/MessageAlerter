@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Message Alerter</string>
+    
+    <string name="activity_title_edit_rule">Edit rule</string>
+    <string name="activity_title_profiles">Profiles</string>
+    <string name="activity_title_edit_profile">Edit profile</string>
+    <string name="activity_title_settings">Settings</string>
+    <string name="activity_title_help">Help</string>
+    <string name="activity_title_acknowledge_alert">Acknowledge alert</string>
+    
+    <string name="activity_edit_rule_name">Name:</string>
+    <string name="activity_edit_rule_name_hint">Rule name</string>
+    <string name="activity_edit_rule_keywords">Keywords (checked are case sensitive):</string>
+    <string name="activity_edit_rule_profile">Profile:</string>
+    <string name="activity_edit_rule_enabled">Enable this rule</string>
+    <string name="activity_edit_rule_save">Save</string>
+    <string name="activity_edit_rule_revert">Revert</string>
+    <string name="activity_edit_rule_cancel">Cancel</string>
+    
+    <string name="activity_edit_profile_name">Name:</string>
+    <string name="activity_edit_profile_name_hint">Profile name</string>
+    <string name="activity_edit_profile_ringtone">Ringtone:</string>
+    <string name="activity_edit_profile_volume">Volume:</string>
+    <string name="activity_edit_profile_interval">Repeat interval (s):</string>
+    <string name="activity_edit_profile_interval_hint">Seconds</string>
+    <string name="activity_edit_profile_icon">Icon:</string>
+    <string name="activity_edit_profile_save">Save</string>
+    <string name="activity_edit_profile_revert">Revert</string>
+    <string name="activity_edit_profile_cancel">Cancel</string>
+    
+    <string name="activity_acknowledge_alert_empty">No active alerts</string>
+    
+    <string name="alert_acknowledge_title">Acknowledge alert</string>
+    <string name="alert_acknowledge_message">Do you want to acknowledge this alert?</string>
+    <string name="alert_acknowledge_positive">Acknowledge</string>
+    <string name="alert_acknowledge_negative">Cancel</string>
+    
+    <string name="dialog_icons_title">Choose icon</string>
+    <string name="dialog_icons_cancel">Cancel</string>
+    
+    <string name="alert_remove_keyword_title">Remove keyword</string>
+    <string name="alert_remove_keyword_message">Do you want to remove this keyword from the rule?</string>
+    <string name="alert_remove_keyword_positive">Remove</string>
+    <string name="alert_remove_keyword_negative">Cancel</string>
+    
+    <string name="toast_rule_saved">Rule saved</string>
+    <string name="toast_profile_saved">Profile saved</string>
+    
+    <string name="options_menu_rules">Rules</string>
+    <string name="options_menu_profiles">Profiles</string>
+    <string name="options_menu_settings">Settings</string>
+    <string name="options_menu_help">Help</string>
+    <string name="options_menu_delete">Delete</string>
+    
+    <string name="notification_running_ticker">MessageAlerter is running</string>
+    <string name="notification_running_title">Listening for SMS alerts</string>
+    <string name="notification_running_text">MessageAlerter is listening for SMS alerts</string>
+    <string name="notification_alert_title">Unacknowledged alerts</string>
+    <string name="notification_alert_text">You have # unacknowledged alerts</string>
+    
+</resources>

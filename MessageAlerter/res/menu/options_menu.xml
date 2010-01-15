@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/options_menu_rules"
+	android:title="@string/options_menu_rules"
+	android:icon="@android:drawable/ic_menu_agenda"/>
+	
+	<item android:id="@+id/options_menu_profiles"
+	android:title="@string/options_menu_profiles"
+	android:icon="@android:drawable/ic_menu_manage"/>
+	
+	<item android:id="@+id/options_menu_settings"
+	android:title="@string/options_menu_settings"
+	android:icon="@android:drawable/ic_menu_preferences"/>
+	
+	<item android:id="@+id/options_menu_help"
+	android:title="@string/options_menu_help"
+	android:icon="@android:drawable/ic_menu_help"/>
+	
+	<item android:id="@+id/options_menu_delete"
+	android:title="@string/options_menu_delete"
+	android:icon="@android:drawable/ic_menu_delete"/>
+	
+</menu>

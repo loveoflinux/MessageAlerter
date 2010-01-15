@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.messagealerter"
+android:versionCode="1"
+android:versionName="1.0">
+
+	<application android:name="MessageAlerter"
+	android:icon="@drawable/icon"
+	android:label="@string/app_name">
+	
+		<activity android:name=".activity.Rules"
+		android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".activity.EditRule"
+		android:label="@string/activity_title_edit_rule"
+		android:icon="@android:drawable/ic_menu_edit">
+		</activity>
+		
+		<activity android:name=".activity.Profiles"
+		android:label="@string/activity_title_profiles"
+		android:icon="@android:drawable/ic_menu_edit">
+		</activity>
+		
+		<activity android:name=".activity.EditProfile"
+		android:label="@string/activity_title_edit_profile"
+		android:icon="@android:drawable/ic_menu_edit">
+		</activity>
+		
+		<activity android:name=".activity.Settings"
+		android:label="@string/activity_title_settings"
+		android:icon="@android:drawable/ic_menu_preferences">
+		</activity>
+		
+		<activity android:name=".activity.Help"
+		android:label="@string/activity_title_help"
+		android:icon="@android:drawable/ic_menu_help">
+		</activity>
+		
+		<activity android:name=".activity.AcknowledgeAlert"
+		android:label="@string/activity_title_acknowledge_alert">
+		</activity>
+		
+		<service android:name=".service.Alerter"/>
+		
+		<receiver android:name=".service.SMSReceiver">
+			<intent-filter>
+				<action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+			</intent-filter>
+		</receiver>
+	
+	</application>
+	
+	<uses-sdk android:minSdkVersion="3" />
+	
+	<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+	<uses-permission android:name="android.permission.READ_SMS"/>
+
+</manifest> 

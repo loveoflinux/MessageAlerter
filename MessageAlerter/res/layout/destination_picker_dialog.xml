@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+	<LinearLayout android:id="@+id/file_picker_buttons"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_alignParentBottom="true">
+	
+		<Button android:id="@+id/file_picker_ok"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.55"
+		android:text="OK"/>
+		
+		<Button android:id="@+id/file_picker_cancel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.45"
+		android:text="Cancel"/>
+	
+	</LinearLayout>
+
+	<HorizontalScrollView android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_above="@id/file_picker_buttons">
+
+		<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:fillViewport="true">
+		
+			<LinearLayout android:id="@+id/holder"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"/>
+		
+		</ScrollView>
+		
+	</HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical">
+
+	<TextView android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/activity_edit_profile_name"/>
+	
+	<EditText android:id="@+id/activity_edit_profile_name"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:hint="@string/activity_edit_profile_name_hint"/>
+	
+	<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical">
+	
+		<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="@string/activity_edit_profile_icon"/>
+		
+		<ImageButton android:id="@+id/activity_edit_profile_icon"
+		android:layout_width="56dip"
+		android:layout_height="56dip"/>
+	
+	</LinearLayout>
+	
+	<TextView android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/activity_edit_profile_ringtone"/>
+	
+	<Button android:id="@+id/activity_edit_profile_ringtone"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+	
+	<TextView android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/activity_edit_profile_volume"/>
+	
+	<SeekBar android:id="@+id/activity_edit_profile_volume"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="22dip"
+	android:paddingRight="22dip"
+	android:max="100"/>
+	
+	<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical">
+	
+		<TextView android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="@string/activity_edit_profile_interval"/>
+		
+		<EditText android:id="@+id/activity_edit_profile_interval"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:ems="5"
+		android:singleLine="true"
+		android:inputType="number"
+		android:hint="@string/activity_edit_profile_interval_hint"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="bottom">
+	
+		<Button android:id="@+id/activity_edit_profile_save"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="@string/activity_edit_profile_save"/>
+		
+		<Button android:id="@+id/activity_edit_profile_revert"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="@string/activity_edit_profile_revert"/>
+		
+		<Button android:id="@+id/activity_edit_profile_cancel"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="@string/activity_edit_profile_cancel"/>
+	
+	</LinearLayout>
+
+</LinearLayout>
